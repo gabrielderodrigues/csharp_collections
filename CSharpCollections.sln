@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections", "CSharpCollections\CSharpCollections.csproj", "{50E31F78-C4DC-42AC-89EC-CEA06CB1DE33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - Array", "CSharpCollections\CSharpCollections - Array.csproj", "{50E31F78-C4DC-42AC-89EC-CEA06CB1DE33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - Listas", "CSharpCollections - Listas\CSharpCollections - Listas.csproj", "{990AFBFE-31B7-41AE-B6D0-B9419DA85809}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{50E31F78-C4DC-42AC-89EC-CEA06CB1DE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E31F78-C4DC-42AC-89EC-CEA06CB1DE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E31F78-C4DC-42AC-89EC-CEA06CB1DE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990AFBFE-31B7-41AE-B6D0-B9419DA85809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990AFBFE-31B7-41AE-B6D0-B9419DA85809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990AFBFE-31B7-41AE-B6D0-B9419DA85809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990AFBFE-31B7-41AE-B6D0-B9419DA85809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
