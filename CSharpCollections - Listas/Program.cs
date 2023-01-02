@@ -35,6 +35,37 @@ namespace CSharpCollections___Listas
             Console.WriteLine("Ultima Aula: " + aulas[aulas.Count() - 1]);
             Console.WriteLine("Ultima Aula: " + aulas.Last());
 
+            aulas[0] = "Trabalhando com Listas";
+            Imprimir(aulas);
+
+            Console.WriteLine("A PRIMEIRA aula 'Trabalhando' é: " + aulas.First(aula => aula.Contains("Trabalhando")));
+            Console.WriteLine("A ULTIMA aula 'Trabalhando' é: " + aulas.Last(aula => aula.Contains("Trabalhando")));
+            Console.WriteLine("A PRIMEIRA aula 'Conclusão' é: " + aulas.FirstOrDefault(aula => aula.Contains("Conclusão"))); // vem null 
+
+            aulas.Reverse();
+            Imprimir(aulas);
+
+            aulas.Reverse();
+            Imprimir(aulas);
+
+            aulas.RemoveAt(aulas.Count - 1);
+            Imprimir(aulas);
+
+            aulas.Add("Conclusão");
+            Imprimir(aulas);
+
+            aulas.Sort();
+            Imprimir(aulas);
+
+            List<string> copia = aulas.GetRange(aulas.Count - 2, 2);
+            Imprimir(copia);
+
+            List<string> clone = new List<string>(aulas);
+            Imprimir(clone);
+
+            clone.RemoveRange(clone.Count - 2, 2);
+            Imprimir(clone);
+
             Console.ReadLine();
         }
 
