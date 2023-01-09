@@ -15,7 +15,7 @@ namespace CSharpCollections___Listas.Somente.Leitura.Entities
 		private string instrutor;
 
 		private string nome;
-
+				
 		public Curso(string instrutor, string nome)
 		{
 			this.instrutor = instrutor;
@@ -45,6 +45,20 @@ namespace CSharpCollections___Listas.Somente.Leitura.Entities
 		internal void AddClass(Aula aula)
 		{
 			this.aulas.Add(aula);
+		}
+
+        public int TempoTotal
+        {
+			get
+			{
+				// LINQ
+				return aulas.Sum(aula => aula.tempo);
+			}
+        }
+
+		public override string ToString()
+		{
+			return $"Curso: {nome}, Tempo: {TempoTotal}, Aulas: {string.Join(", ", aulas)}";
 		}
 	}
 }

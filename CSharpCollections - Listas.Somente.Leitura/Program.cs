@@ -17,6 +17,20 @@ namespace CSharpCollections___Listas.Somente.Leitura
 
             Imprimir(csharpColecoes.Aulas);
 
+            csharpColecoes.AddClass(new Aula("Criando uma Aula", 20));
+            csharpColecoes.AddClass(new Aula("Modelando com Coleçõees", 19));
+
+            Imprimir(csharpColecoes.Aulas);
+
+            List<Aula> aulasCopiadas = new List<Aula>(csharpColecoes.Aulas);
+
+            aulasCopiadas.Sort();
+
+            Imprimir(aulasCopiadas);
+
+            Console.WriteLine("Tempo Total: " + csharpColecoes.TempoTotal);
+
+            Console.WriteLine(csharpColecoes);
             Console.ReadLine();
         }
 

@@ -8,8 +8,8 @@ namespace CSharpCollections___Lista.De.Objetos.Entities
 {
     public class Aula : IComparable<Aula>
     {
-        private string titulo;
-        private int tempo;
+        public string titulo;
+        public int tempo;
 
         public Aula(string titulo, int tempo)
         {
