@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B10B0093-7E13-400A-89C3-A5FDDC5A0C95}</ProjectGuid>
+    <ProjectGuid>{21D0A0ED-0B3D-4F61-A137-CE7728FF8BDD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpCollections___Sets</RootNamespace>
-    <AssemblyName>CSharpCollections - Sets</AssemblyName>
+    <RootNamespace>CSharpCollections___Equals_e_HashCode</RootNamespace>
+    <AssemblyName>CSharpCollections - Equals e HashCode</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Aluno.cs" />
-    <Compile Include="Entities\Aula.cs" />
-    <Compile Include="Entities\Curso.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
