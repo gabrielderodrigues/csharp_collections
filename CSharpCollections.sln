@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - Sets", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - Equals e HashCode", "CSharpCollections - Equals e HashCode\CSharpCollections - Equals e HashCode.csproj", "{21D0A0ED-0B3D-4F61-A137-CE7728FF8BDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - Dicionarios", "CSharpCollections - Dicionarios\CSharpCollections - Dicionarios.csproj", "{F5A07698-8E8C-42E2-AB53-5EA4828DA428}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{21D0A0ED-0B3D-4F61-A137-CE7728FF8BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21D0A0ED-0B3D-4F61-A137-CE7728FF8BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21D0A0ED-0B3D-4F61-A137-CE7728FF8BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A07698-8E8C-42E2-AB53-5EA4828DA428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A07698-8E8C-42E2-AB53-5EA4828DA428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A07698-8E8C-42E2-AB53-5EA4828DA428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A07698-8E8C-42E2-AB53-5EA4828DA428}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
