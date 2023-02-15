@@ -74,6 +74,8 @@ namespace CSharpCollections___Dicionarios
             Console.WriteLine("Quem é o aluno com matrícula 5617? ");
             Console.WriteLine(csharpColecoes.BuscaMatriculado(5617));
 
+            // Dicionário armazena valores (diagrama)
+
             Console.ReadLine();
         }
     }
