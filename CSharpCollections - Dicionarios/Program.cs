@@ -64,9 +64,15 @@ namespace CSharpCollections___Dicionarios
             Aluno aluno5617 = csharpColecoes.BuscaMatriculado(5617);
             Console.WriteLine("aluno5617: " + aluno5617);
 
-            Console.WriteLine("Quem é o aluno com matrícula 5617? ");
+            Console.WriteLine("Quem é o aluno com matrícula 5618? ");
             Console.WriteLine(csharpColecoes.BuscaMatriculado(5618));
 
+            // Se tentarmos adicionar outro aluno com mesma chave 5617
+            Aluno fabio = new Aluno("Fabio Gushiken", 5617);
+            //csharpColecoes.Matricula(fabio);
+            csharpColecoes.SubstituiAluno(fabio);
+            Console.WriteLine("Quem é o aluno com matrícula 5617? ");
+            Console.WriteLine(csharpColecoes.BuscaMatriculado(5617));
 
             Console.ReadLine();
         }
