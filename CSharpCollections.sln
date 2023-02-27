@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - LinkedL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpCollections - Stack", "CsharpCollections - Stack\CsharpCollections - Stack.csproj", "{C1E8A6FE-7D04-48D2-9000-ECCC956A111B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - Queue", "CSharpCollections - Queue\CSharpCollections - Queue.csproj", "{A7C8C4B8-8F9C-46B8-83B3-8F97FC5456B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C1E8A6FE-7D04-48D2-9000-ECCC956A111B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E8A6FE-7D04-48D2-9000-ECCC956A111B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E8A6FE-7D04-48D2-9000-ECCC956A111B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C8C4B8-8F9C-46B8-83B3-8F97FC5456B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C8C4B8-8F9C-46B8-83B3-8F97FC5456B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C8C4B8-8F9C-46B8-83B3-8F97FC5456B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C8C4B8-8F9C-46B8-83B3-8F97FC5456B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
