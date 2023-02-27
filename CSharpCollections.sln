@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - Equals 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - Dicionarios", "CSharpCollections - Dicionarios\CSharpCollections - Dicionarios.csproj", "{F5A07698-8E8C-42E2-AB53-5EA4828DA428}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections - LinkedList", "CSharpCollections - LinkedList\CSharpCollections - LinkedList.csproj", "{ED744355-B32E-4761-B100-8073A0D02CEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F5A07698-8E8C-42E2-AB53-5EA4828DA428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5A07698-8E8C-42E2-AB53-5EA4828DA428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5A07698-8E8C-42E2-AB53-5EA4828DA428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED744355-B32E-4761-B100-8073A0D02CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED744355-B32E-4761-B100-8073A0D02CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED744355-B32E-4761-B100-8073A0D02CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED744355-B32E-4761-B100-8073A0D02CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
